@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/OGGYMAMAN'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/OGGYMAMAN-TG/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('OWNER', url='https://t.me/OGGYMAMAN'),
+        InlineKeyboardButton('GROUP', url ='https://t.me/mallumovie11')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/ULTRONBOTS')
+        InlineKeyboardButton('Support', url='https://t.me/ULTRONBOTS')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
@@ -70,8 +70,8 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
+        InlineKeyboardButton('CHANNEL', url='https://t.me/MFCMCHANNEL'),
+        InlineKeyboardButton('SOURCE CODE', url='https://t.me/ayshe45yi')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
@@ -91,7 +91,7 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
+        InlineKeyboardButton('CHANNEL', url='https://t.me/MFCMCHANNEL'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
