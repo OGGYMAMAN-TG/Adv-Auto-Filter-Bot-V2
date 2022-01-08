@@ -52,7 +52,7 @@ async def start(bot, update):
     ],[
         InlineKeyboardButton(' ꧁༒☬¢нαηηєℓ༒꧂', url='https://t.me/MFCMCHANNEL')
     ],[
-        InlineKeyboardButton(' ༒☬нєℓρ༒꧂', callback_data="help")
+        InlineKeyboardButton(' ꧁༒☬¢ℓσѕє༒꧂ ', callback_data="close")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -73,7 +73,7 @@ async def help(bot, update):
         InlineKeyboardButton(' ꧁༒☬¢нαηηєℓ༒꧂', url='https://t.me/MFCMCHANNEL'),
         InlineKeyboardButton('SOURCE CODE', url='https://t.me/ayshe45yi')
     ],[
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton(' ꧁༒☬¢ℓσѕє༒꧂ 🔐', callback_data='close')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -92,7 +92,7 @@ async def about(bot, update):
     
     buttons = [[
         InlineKeyboardButton(' ꧁༒☬¢нαηηєℓ༒꧂', url='https://t.me/MFCMCHANNEL'),
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton(' ꧁༒☬¢ℓσѕє༒꧂ 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     
