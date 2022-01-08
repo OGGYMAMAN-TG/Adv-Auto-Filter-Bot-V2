@@ -5,9 +5,9 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+<i>Am Just A  Filter Bot....😉
 
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
+ഹലോ മച്ചാനെ ഞാൻ MOVIE FACTORY ഗ്രൂപ്പിൽ മാത്രമേ സപ്പോർട്ട് ആവുകയുള്ളൂ.എന്തായാലും ഇവിടം വരെ വന്നതല്ലേ ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ആയില്ലെങ്കിൽ ജോയിൻ ആയിക്കോ
 
 For More Details Click Help Button Below..
 @OGGYMAMAN
