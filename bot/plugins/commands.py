@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/OGGYMAMAN"
+                                    ' ꧁༒☬∂єνєℓσρєя༒꧂', url="https://t.me/OGGYMAMAN"
                                 )
                         ]
                     ]
