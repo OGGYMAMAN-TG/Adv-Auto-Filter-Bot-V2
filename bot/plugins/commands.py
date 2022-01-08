@@ -52,7 +52,7 @@ async def start(bot, update):
     ],[
         InlineKeyboardButton(' ꧁༒☬¢нαηηєℓ༒꧂', url='https://t.me/MFCMCHANNEL')
     ],[
-        InlineKeyboardButton(' HELP ⚙', callback_data="help")
+        InlineKeyboardButton(' ༒☬нєℓρ༒꧂', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
