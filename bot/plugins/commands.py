@@ -47,12 +47,12 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('OWNER', url='https://t.me/OGGYMAMAN'),
-        InlineKeyboardButton('GROUP', url ='https://t.me/mallumovie11')
+        InlineKeyboardButton('꧁༒•BӨƬ ӨЩПΣЯ•༒꧂', url='https://t.me/OGGYMAMAN'),
+        InlineKeyboardButton('꧁༒•GЯӨЦP•༒꧂', url ='https://t.me/mallumovie11')
     ],[
-        InlineKeyboardButton('CHANNEL', url='https://t.me/MFCMCHANNEL')
+        InlineKeyboardButton(' ꧁༒☬¢нαηηєℓ༒꧂', url='https://t.me/MFCMCHANNEL')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton(' HELP ⚙', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -70,7 +70,7 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('CHANNEL', url='https://t.me/MFCMCHANNEL'),
+        InlineKeyboardButton(' ꧁༒☬¢нαηηєℓ༒꧂', url='https://t.me/MFCMCHANNEL'),
         InlineKeyboardButton('SOURCE CODE', url='https://t.me/ayshe45yi')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
@@ -91,7 +91,7 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('CHANNEL', url='https://t.me/MFCMCHANNEL'),
+        InlineKeyboardButton(' ꧁༒☬¢нαηηєℓ༒꧂', url='https://t.me/MFCMCHANNEL'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
